@@ -1,0 +1,23 @@
+-- create
+CREATE TABLE STUDENTS (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age TEXT NOT NULL,
+  city TEXT NOT NULL,
+  adress TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO STUDENTS VALUES (0001, 'Ольга', '21', 'г. Санкт-Петербург', 'Новоизмайловский пр-т, 32-28');
+INSERT INTO STUDENTS VALUES (0002, 'Роман', '20', 'г. Санкт-Петербург', 'пр-т Маршала Жукова, 26-15');
+INSERT INTO STUDENTS VALUES (0003, 'Петр', '19', 'г. Пушкин', 'ул. Парковая, 5-12');
+INSERT INTO STUDENTS VALUES (0004, 'Иван', '20', 'г. Санкт-Петербург', 'ул. Краснопутиловская, 25-52');
+INSERT INTO STUDENTS VALUES (0005, 'Борис', '21', 'г. Санкт-Петербург', 'Шлиссельбургский пр-т, 21-77');
+INSERT INTO STUDENTS VALUES (0006, 'Артем', '20', 'г. Санкт-Петербург', 'Варшавская ул., 10-33');
+INSERT INTO STUDENTS VALUES (0007, 'Оксана', '18', 'г. Санкт-Петербург', 'Кутузовский пр-т, 22-19');
+INSERT INTO STUDENTS VALUES (0008, 'Наталья', '22', 'пгт. Мга', 'ул. Железнодорожная, 20-25');
+INSERT INTO STUDENTS VALUES (0009, 'Сергей', '20', 'г. Колпино', 'ул. Коммуны, 10-10');
+INSERT INTO STUDENTS VALUES (0010, 'Анна', '20', 'г. Тосно', 'ш. Барыбина, 15-20');
+
+-- fetch 
+SELECT * FROM STUDENTS WHERE city != 'г. Санкт-Петербург';

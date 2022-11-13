@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<group>
+    <students>
+        <name>
+            <firstName>
+                Anna
+            </firstName>
+            <lastName>
+                Komarova
+            </lastName>
+            <middleName>
+                Alekseevna
+            </middleName>
+        </name>
+        <yearOfBirth>
+            1999
+        </yearOfBirth>
+        <class>
+            <num>8</num>
+            <lit>A</lit>
+        </class>
+        <adress>
+            <city>SPb</city>
+            <street>Leninskiy</street>
+            <steetType>prospekt</steetType>
+            <numberOfHome>19</numberOfHome>
+        </adress>
+    </students>
+</group>
